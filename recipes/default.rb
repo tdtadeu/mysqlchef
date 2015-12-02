@@ -1,3 +1,3 @@
-include_recipe "mysql::service"
-include_recipe "mysql::client"
-include_recipe "mysql::conf"
+include_recipe "mysqlchef::service"
+include_recipe "mysqlchef::client"
+include_recipe "mysqlchef::conf"
